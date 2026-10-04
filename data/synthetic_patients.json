@@ -1,0 +1,298 @@
+{
+  "data_notice": "All records in this file are fictional synthetic demo data. They do not describe real people.",
+  "patients": [
+    {
+      "patient_id": "P-1001",
+      "name": "Aster Nova",
+      "age": 61,
+      "gender": "Female",
+      "location": "Orchid District, Meridian",
+      "synthetic_profile": "Fictional cardiometabolic-risk demonstration profile.",
+      "conditions": [
+        {"name": "Hypertension", "status": "active", "diagnosed_on": "2024-03-11", "code": "SYN-HTN", "notes": "Synthetic outpatient problem list entry."},
+        {"name": "Dyslipidemia", "status": "active", "diagnosed_on": "2025-01-16", "code": "SYN-LIP", "notes": "Synthetic outpatient problem list entry."},
+        {"name": "Type 2 diabetes mellitus", "status": "active", "diagnosed_on": "2023-06-05", "code": "SYN-T2D", "notes": "Synthetic outpatient problem list entry."}
+      ],
+      "medications": [
+        {"name": "Lisinopril", "dose": "20 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2024-03-11", "indication": "Hypertension"},
+        {"name": "Atorvastatin", "dose": "40 mg", "route": "oral", "frequency": "once nightly", "status": "active", "started_on": "2025-01-16", "indication": "Dyslipidemia"},
+        {"name": "Metformin ER", "dose": "1000 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2023-06-05", "indication": "Type 2 diabetes mellitus"}
+      ],
+      "allergies": [{"substance": "Sulfonamide antibiotics", "reaction": "Rash", "severity": "moderate"}],
+      "labs": [
+        {"test_name": "LDL Cholesterol", "value": "172", "numeric_value": 172, "unit": "mg/dL", "reference_range": "< 100", "flag": "high", "collected_on": "2026-09-15"},
+        {"test_name": "Hemoglobin A1c", "value": "8.4", "numeric_value": 8.4, "unit": "%", "reference_range": "< 7.0", "flag": "high", "collected_on": "2026-09-15"},
+        {"test_name": "eGFR", "value": "68", "numeric_value": 68, "unit": "mL/min/1.73m2", "reference_range": ">= 60", "flag": "normal", "collected_on": "2026-09-15"},
+        {"test_name": "Systolic blood pressure", "value": "148", "numeric_value": 148, "unit": "mmHg", "reference_range": "< 130", "flag": "high", "collected_on": "2026-09-12"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-08-10", "encounter_type": "Primary care", "facility": "Meridian Synthetic Clinic", "summary": "Fictional chronic-condition follow-up; elevated office blood pressure documented.", "disposition": "home"},
+        {"encounter_date": "2026-09-12", "encounter_type": "Primary care", "facility": "Meridian Synthetic Clinic", "summary": "Synthetic medication reconciliation and cardiometabolic monitoring visit.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-08-10", "category": "Office visit", "description": "Synthetic chronic-care follow-up claim", "status": "adjudicated", "amount": 142.50},
+        {"service_date": "2026-09-15", "category": "Laboratory", "description": "Synthetic lipid and metabolic panel claim", "status": "adjudicated", "amount": 86.20}
+      ]
+    },
+    {
+      "patient_id": "P-1002",
+      "name": "Bramble Quill",
+      "age": 72,
+      "gender": "Male",
+      "location": "North Haven Quarter, Meridian",
+      "synthetic_profile": "Fictional anticoagulation and kidney-monitoring demonstration profile.",
+      "conditions": [
+        {"name": "Atrial fibrillation", "status": "active", "diagnosed_on": "2022-11-02", "code": "SYN-AF", "notes": "Synthetic problem list entry."},
+        {"name": "Chronic kidney disease stage 3", "status": "active", "diagnosed_on": "2025-04-14", "code": "SYN-CKD3", "notes": "Synthetic problem list entry."},
+        {"name": "Hypertension", "status": "active", "diagnosed_on": "2021-05-09", "code": "SYN-HTN", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Apixaban", "dose": "5 mg", "route": "oral", "frequency": "twice daily", "status": "active", "started_on": "2022-11-02", "indication": "Atrial fibrillation"},
+        {"name": "Metoprolol succinate", "dose": "50 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2022-11-02", "indication": "Rate control"},
+        {"name": "Losartan", "dose": "50 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2025-05-01", "indication": "Hypertension"}
+      ],
+      "allergies": [{"substance": "No known drug allergies", "reaction": "None reported", "severity": "none"}],
+      "labs": [
+        {"test_name": "eGFR", "value": "47", "numeric_value": 47, "unit": "mL/min/1.73m2", "reference_range": ">= 60", "flag": "low", "collected_on": "2026-09-21"},
+        {"test_name": "Serum creatinine", "value": "1.6", "numeric_value": 1.6, "unit": "mg/dL", "reference_range": "0.7 - 1.3", "flag": "high", "collected_on": "2026-09-21"},
+        {"test_name": "Hemoglobin", "value": "12.8", "numeric_value": 12.8, "unit": "g/dL", "reference_range": "13.5 - 17.5", "flag": "low", "collected_on": "2026-09-21"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-07-18", "encounter_type": "Emergency department", "facility": "North Haven Simulation Hospital", "summary": "Synthetic evaluation for dizziness; no fictional injury was recorded.", "disposition": "discharged"},
+        {"encounter_date": "2026-09-22", "encounter_type": "Cardiology", "facility": "Meridian Synthetic Clinic", "summary": "Synthetic anticoagulation and renal-function monitoring follow-up.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-07-18", "category": "Emergency services", "description": "Synthetic emergency-department evaluation claim", "status": "adjudicated", "amount": 741.00},
+        {"service_date": "2026-09-21", "category": "Laboratory", "description": "Synthetic renal-function panel claim", "status": "adjudicated", "amount": 64.30}
+      ]
+    },
+    {
+      "patient_id": "P-1003",
+      "name": "Cinder Lumen",
+      "age": 48,
+      "gender": "Nonbinary",
+      "location": "Cobalt Ward, Meridian",
+      "synthetic_profile": "Fictional asthma and medication-adherence demonstration profile.",
+      "conditions": [
+        {"name": "Moderate persistent asthma", "status": "active", "diagnosed_on": "2019-08-20", "code": "SYN-ASTHMA", "notes": "Synthetic problem list entry."},
+        {"name": "Seasonal allergic rhinitis", "status": "active", "diagnosed_on": "2020-03-12", "code": "SYN-RHIN", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Budesonide-formoterol", "dose": "160/4.5 mcg", "route": "inhaled", "frequency": "two puffs twice daily", "status": "active", "started_on": "2025-11-05", "indication": "Asthma control"},
+        {"name": "Albuterol", "dose": "90 mcg", "route": "inhaled", "frequency": "two puffs as needed", "status": "active", "started_on": "2019-08-20", "indication": "Rescue inhaler"},
+        {"name": "Cetirizine", "dose": "10 mg", "route": "oral", "frequency": "once daily as needed", "status": "active", "started_on": "2020-03-12", "indication": "Allergic rhinitis"}
+      ],
+      "allergies": [{"substance": "Latex", "reaction": "Localized hives", "severity": "mild"}],
+      "labs": [
+        {"test_name": "Eosinophils", "value": "0.22", "numeric_value": 0.22, "unit": "x10^9/L", "reference_range": "0.0 - 0.5", "flag": "normal", "collected_on": "2026-08-28"},
+        {"test_name": "Oxygen saturation", "value": "97", "numeric_value": 97, "unit": "%", "reference_range": ">= 95", "flag": "normal", "collected_on": "2026-08-28"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-06-04", "encounter_type": "Urgent care", "facility": "Cobalt Simulation Urgent Care", "summary": "Synthetic asthma symptom flare treated as an outpatient.", "disposition": "home"},
+        {"encounter_date": "2026-08-28", "encounter_type": "Primary care", "facility": "Meridian Synthetic Clinic", "summary": "Synthetic inhaler technique review and action-plan update.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-06-04", "category": "Urgent care", "description": "Synthetic acute respiratory symptom visit claim", "status": "adjudicated", "amount": 189.00},
+        {"service_date": "2026-08-28", "category": "Office visit", "description": "Synthetic respiratory follow-up claim", "status": "adjudicated", "amount": 126.50}
+      ]
+    },
+    {
+      "patient_id": "P-1004",
+      "name": "Dune Solace",
+      "age": 67,
+      "gender": "Female",
+      "location": "Saffron Terrace, Meridian",
+      "synthetic_profile": "Fictional heart-failure utilization demonstration profile.",
+      "conditions": [
+        {"name": "Heart failure with preserved ejection fraction", "status": "active", "diagnosed_on": "2024-02-08", "code": "SYN-HFpEF", "notes": "Synthetic problem list entry."},
+        {"name": "Hypertension", "status": "active", "diagnosed_on": "2018-04-15", "code": "SYN-HTN", "notes": "Synthetic problem list entry."},
+        {"name": "Obesity", "status": "active", "diagnosed_on": "2022-10-01", "code": "SYN-OB", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Furosemide", "dose": "20 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2024-02-08", "indication": "Fluid management"},
+        {"name": "Empagliflozin", "dose": "10 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2025-03-17", "indication": "Heart failure"},
+        {"name": "Amlodipine", "dose": "5 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2024-07-23", "indication": "Hypertension"}
+      ],
+      "allergies": [{"substance": "Penicillin class", "reaction": "Gastrointestinal intolerance", "severity": "mild"}],
+      "labs": [
+        {"test_name": "NT-proBNP", "value": "680", "numeric_value": 680, "unit": "pg/mL", "reference_range": "< 125", "flag": "high", "collected_on": "2026-09-04"},
+        {"test_name": "Potassium", "value": "4.2", "numeric_value": 4.2, "unit": "mmol/L", "reference_range": "3.5 - 5.1", "flag": "normal", "collected_on": "2026-09-04"},
+        {"test_name": "eGFR", "value": "62", "numeric_value": 62, "unit": "mL/min/1.73m2", "reference_range": ">= 60", "flag": "normal", "collected_on": "2026-09-04"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-05-09", "encounter_type": "Inpatient", "facility": "Saffron Simulation Hospital", "summary": "Synthetic short-stay admission for fluid-volume assessment.", "disposition": "home"},
+        {"encounter_date": "2026-09-05", "encounter_type": "Cardiology", "facility": "Meridian Synthetic Clinic", "summary": "Synthetic post-discharge symptom and weight review.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-05-09", "category": "Inpatient", "description": "Synthetic short-stay facility claim", "status": "adjudicated", "amount": 3260.00},
+        {"service_date": "2026-09-05", "category": "Specialist visit", "description": "Synthetic cardiology follow-up claim", "status": "adjudicated", "amount": 248.25}
+      ]
+    },
+    {
+      "patient_id": "P-1005",
+      "name": "Ember Vale",
+      "age": 35,
+      "gender": "Male",
+      "location": "Juniper Reach, Meridian",
+      "synthetic_profile": "Fictional low-complexity preventive-care demonstration profile.",
+      "conditions": [
+        {"name": "Migraine", "status": "active", "diagnosed_on": "2021-09-11", "code": "SYN-MIG", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Sumatriptan", "dose": "50 mg", "route": "oral", "frequency": "as needed", "status": "active", "started_on": "2021-09-11", "indication": "Migraine"}
+      ],
+      "allergies": [{"substance": "No known drug allergies", "reaction": "None reported", "severity": "none"}],
+      "labs": [
+        {"test_name": "LDL Cholesterol", "value": "98", "numeric_value": 98, "unit": "mg/dL", "reference_range": "< 100", "flag": "normal", "collected_on": "2026-07-16"},
+        {"test_name": "Hemoglobin A1c", "value": "5.4", "numeric_value": 5.4, "unit": "%", "reference_range": "< 5.7", "flag": "normal", "collected_on": "2026-07-16"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-07-16", "encounter_type": "Preventive care", "facility": "Juniper Synthetic Wellness Center", "summary": "Synthetic annual wellness and migraine-medication review.", "disposition": "home"}
+      ],
+      "claims": [{"service_date": "2026-07-16", "category": "Preventive care", "description": "Synthetic annual wellness claim", "status": "adjudicated", "amount": 104.00}]
+    },
+    {
+      "patient_id": "P-1006",
+      "name": "Fable Rook",
+      "age": 54,
+      "gender": "Female",
+      "location": "Willow Circuit, Meridian",
+      "synthetic_profile": "Fictional diabetes and medication-safety demonstration profile.",
+      "conditions": [
+        {"name": "Type 2 diabetes mellitus", "status": "active", "diagnosed_on": "2018-12-18", "code": "SYN-T2D", "notes": "Synthetic problem list entry."},
+        {"name": "Peripheral neuropathy", "status": "active", "diagnosed_on": "2024-04-22", "code": "SYN-NEURO", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Insulin glargine", "dose": "18 units", "route": "subcutaneous", "frequency": "once nightly", "status": "active", "started_on": "2025-01-08", "indication": "Diabetes"},
+        {"name": "Insulin lispro", "dose": "6 units", "route": "subcutaneous", "frequency": "with meals", "status": "active", "started_on": "2025-01-08", "indication": "Diabetes"},
+        {"name": "Gabapentin", "dose": "300 mg", "route": "oral", "frequency": "three times daily", "status": "active", "started_on": "2024-04-22", "indication": "Neuropathic pain"}
+      ],
+      "allergies": [{"substance": "Iodinated contrast", "reaction": "Nausea", "severity": "mild"}],
+      "labs": [
+        {"test_name": "Hemoglobin A1c", "value": "9.1", "numeric_value": 9.1, "unit": "%", "reference_range": "< 7.0", "flag": "high", "collected_on": "2026-09-08"},
+        {"test_name": "Fasting glucose", "value": "214", "numeric_value": 214, "unit": "mg/dL", "reference_range": "70 - 99", "flag": "high", "collected_on": "2026-09-08"},
+        {"test_name": "eGFR", "value": "74", "numeric_value": 74, "unit": "mL/min/1.73m2", "reference_range": ">= 60", "flag": "normal", "collected_on": "2026-09-08"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-08-12", "encounter_type": "Primary care", "facility": "Willow Synthetic Clinic", "summary": "Synthetic diabetes review and insulin education visit.", "disposition": "home"},
+        {"encounter_date": "2026-09-09", "encounter_type": "Pharmacy consult", "facility": "Willow Synthetic Clinic", "summary": "Synthetic insulin technique and hypoglycemia-awareness counseling.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-08-12", "category": "Office visit", "description": "Synthetic diabetes-management claim", "status": "adjudicated", "amount": 153.75},
+        {"service_date": "2026-09-09", "category": "Pharmacy service", "description": "Synthetic medication-management claim", "status": "adjudicated", "amount": 71.00}
+      ]
+    },
+    {
+      "patient_id": "P-1007",
+      "name": "Glimmer Thorne",
+      "age": 44,
+      "gender": "Male",
+      "location": "Slate Crossing, Meridian",
+      "synthetic_profile": "Fictional musculoskeletal and utilization demonstration profile.",
+      "conditions": [
+        {"name": "Chronic low back pain", "status": "active", "diagnosed_on": "2023-02-14", "code": "SYN-LBP", "notes": "Synthetic problem list entry."},
+        {"name": "Gastroesophageal reflux disease", "status": "active", "diagnosed_on": "2022-06-09", "code": "SYN-GERD", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Naproxen", "dose": "250 mg", "route": "oral", "frequency": "twice daily as needed", "status": "active", "started_on": "2026-05-20", "indication": "Back pain"},
+        {"name": "Omeprazole", "dose": "20 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2022-06-09", "indication": "GERD"}
+      ],
+      "allergies": [{"substance": "No known drug allergies", "reaction": "None reported", "severity": "none"}],
+      "labs": [
+        {"test_name": "eGFR", "value": "81", "numeric_value": 81, "unit": "mL/min/1.73m2", "reference_range": ">= 60", "flag": "normal", "collected_on": "2026-08-18"},
+        {"test_name": "ALT", "value": "28", "numeric_value": 28, "unit": "U/L", "reference_range": "7 - 56", "flag": "normal", "collected_on": "2026-08-18"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-05-20", "encounter_type": "Urgent care", "facility": "Slate Simulation Urgent Care", "summary": "Synthetic acute worsening of longstanding back discomfort.", "disposition": "home"},
+        {"encounter_date": "2026-08-18", "encounter_type": "Physical therapy", "facility": "Slate Movement Studio", "summary": "Synthetic functional-assessment and therapy-plan visit.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-05-20", "category": "Urgent care", "description": "Synthetic acute pain visit claim", "status": "adjudicated", "amount": 173.00},
+        {"service_date": "2026-08-18", "category": "Therapy", "description": "Synthetic physical-therapy claim", "status": "adjudicated", "amount": 119.00}
+      ]
+    },
+    {
+      "patient_id": "P-1008",
+      "name": "Halo Wren",
+      "age": 76,
+      "gender": "Female",
+      "location": "Ivory Point, Meridian",
+      "synthetic_profile": "Fictional COPD and post-discharge follow-up demonstration profile.",
+      "conditions": [
+        {"name": "Chronic obstructive pulmonary disease", "status": "active", "diagnosed_on": "2020-01-29", "code": "SYN-COPD", "notes": "Synthetic problem list entry."},
+        {"name": "Osteoporosis", "status": "active", "diagnosed_on": "2023-08-01", "code": "SYN-OSTEO", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Tiotropium", "dose": "18 mcg", "route": "inhaled", "frequency": "once daily", "status": "active", "started_on": "2020-01-29", "indication": "COPD maintenance"},
+        {"name": "Albuterol", "dose": "90 mcg", "route": "inhaled", "frequency": "two puffs as needed", "status": "active", "started_on": "2020-01-29", "indication": "Rescue inhaler"},
+        {"name": "Alendronate", "dose": "70 mg", "route": "oral", "frequency": "once weekly", "status": "active", "started_on": "2023-08-01", "indication": "Osteoporosis"}
+      ],
+      "allergies": [{"substance": "Macrolide antibiotics", "reaction": "Diarrhea", "severity": "mild"}],
+      "labs": [
+        {"test_name": "Oxygen saturation", "value": "93", "numeric_value": 93, "unit": "%", "reference_range": ">= 95", "flag": "low", "collected_on": "2026-09-02"},
+        {"test_name": "Vitamin D", "value": "24", "numeric_value": 24, "unit": "ng/mL", "reference_range": "30 - 100", "flag": "low", "collected_on": "2026-09-02"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-08-01", "encounter_type": "Inpatient", "facility": "Ivory Point Simulation Hospital", "summary": "Synthetic COPD exacerbation observation admission.", "disposition": "home"},
+        {"encounter_date": "2026-09-03", "encounter_type": "Pulmonology", "facility": "Meridian Synthetic Clinic", "summary": "Synthetic inhaler review following observation stay.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-08-01", "category": "Inpatient", "description": "Synthetic respiratory observation claim", "status": "adjudicated", "amount": 2850.00},
+        {"service_date": "2026-09-03", "category": "Specialist visit", "description": "Synthetic pulmonary follow-up claim", "status": "adjudicated", "amount": 231.00}
+      ]
+    },
+    {
+      "patient_id": "P-1009",
+      "name": "Indigo Mirth",
+      "age": 58,
+      "gender": "Female",
+      "location": "Azure Basin, Meridian",
+      "synthetic_profile": "Fictional rheumatoid arthritis and monitoring demonstration profile.",
+      "conditions": [
+        {"name": "Rheumatoid arthritis", "status": "active", "diagnosed_on": "2017-04-30", "code": "SYN-RA", "notes": "Synthetic problem list entry."},
+        {"name": "Hypertension", "status": "active", "diagnosed_on": "2024-12-11", "code": "SYN-HTN", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Methotrexate", "dose": "15 mg", "route": "oral", "frequency": "once weekly", "status": "active", "started_on": "2024-06-14", "indication": "Rheumatoid arthritis"},
+        {"name": "Folic acid", "dose": "1 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2024-06-14", "indication": "Supplement with methotrexate"},
+        {"name": "Hydrochlorothiazide", "dose": "12.5 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2024-12-11", "indication": "Hypertension"}
+      ],
+      "allergies": [{"substance": "No known drug allergies", "reaction": "None reported", "severity": "none"}],
+      "labs": [
+        {"test_name": "ALT", "value": "52", "numeric_value": 52, "unit": "U/L", "reference_range": "7 - 56", "flag": "normal", "collected_on": "2026-09-11"},
+        {"test_name": "AST", "value": "44", "numeric_value": 44, "unit": "U/L", "reference_range": "10 - 40", "flag": "high", "collected_on": "2026-09-11"},
+        {"test_name": "C-reactive protein", "value": "12", "numeric_value": 12, "unit": "mg/L", "reference_range": "< 8", "flag": "high", "collected_on": "2026-09-11"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-09-12", "encounter_type": "Rheumatology", "facility": "Azure Synthetic Specialty Center", "summary": "Synthetic disease-activity and laboratory-monitoring review.", "disposition": "home"}
+      ],
+      "claims": [
+        {"service_date": "2026-09-12", "category": "Specialist visit", "description": "Synthetic rheumatology follow-up claim", "status": "adjudicated", "amount": 263.40},
+        {"service_date": "2026-09-11", "category": "Laboratory", "description": "Synthetic treatment-monitoring lab claim", "status": "adjudicated", "amount": 59.10}
+      ]
+    },
+    {
+      "patient_id": "P-1010",
+      "name": "Juniper Orbit",
+      "age": 29,
+      "gender": "Male",
+      "location": "Quartz Loop, Meridian",
+      "synthetic_profile": "Fictional preventive-care and mild hypertension demonstration profile.",
+      "conditions": [
+        {"name": "Hypertension", "status": "active", "diagnosed_on": "2026-02-11", "code": "SYN-HTN", "notes": "Synthetic problem list entry."}
+      ],
+      "medications": [
+        {"name": "Amlodipine", "dose": "5 mg", "route": "oral", "frequency": "once daily", "status": "active", "started_on": "2026-02-11", "indication": "Hypertension"}
+      ],
+      "allergies": [{"substance": "Peanuts", "reaction": "Oral itching", "severity": "mild"}],
+      "labs": [
+        {"test_name": "LDL Cholesterol", "value": "112", "numeric_value": 112, "unit": "mg/dL", "reference_range": "< 100", "flag": "borderline", "collected_on": "2026-09-19"},
+        {"test_name": "Systolic blood pressure", "value": "134", "numeric_value": 134, "unit": "mmHg", "reference_range": "< 130", "flag": "high", "collected_on": "2026-09-19"}
+      ],
+      "encounters": [
+        {"encounter_date": "2026-09-19", "encounter_type": "Preventive care", "facility": "Quartz Synthetic Wellness Center", "summary": "Synthetic blood-pressure follow-up and lifestyle counseling visit.", "disposition": "home"}
+      ],
+      "claims": [{"service_date": "2026-09-19", "category": "Preventive care", "description": "Synthetic preventive follow-up claim", "status": "adjudicated", "amount": 110.00}]
+    }
+  ]
+}
