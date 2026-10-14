@@ -38,6 +38,16 @@ def test_patient_profile_includes_labs_encounters_and_claims(api_client: TestCli
     assert patient["claims"][0]["service_date"]
 
 
+def test_vercel_api_prefix_serves_health_and_patient_list(api_client: TestClient) -> None:
+    health = api_client.get("/api/health")
+    patients = api_client.get("/api/patients")
+
+    assert health.status_code == 200
+    assert health.json()["status"] == "ok"
+    assert patients.status_code == 200
+    assert patients.json()["patients"]
+
+
 def test_dashboard_evidence_endpoints_return_cited_records(api_client: TestClient) -> None:
     timeline = api_client.get("/patients/P-1001/timeline").json()["timeline"]
     risks = api_client.get("/patients/P-1001/risks").json()["risks"]
